@@ -10,9 +10,10 @@ model =  torch.hub.load(r'yolov5', 'custom', path = r'runs\train\yolov5n\weights
 ```
 image = cv2.imread(r'C:\Users\user\Documents\yolov5\Dataset\train\G0010119.jpg')
 ```
-- The latency of the model is shown in table below in CPU
+- The latency of the model is shown in table below in CPU:
+
 | Model  | Latency(ms) |
-| -------| ----------- |
+| ------ | ----------- |
 | yolov5m.pt  | 350  |
 | yolov5m.onnx  | 250  |
 | yolov5m.pt  | 80  |
